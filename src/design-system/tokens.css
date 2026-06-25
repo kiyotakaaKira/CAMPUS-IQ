@@ -1,0 +1,83 @@
+/**
+ * CampusIQ Design System — Canonical Tokens
+ * Import before Tailwind layers in index.css
+ */
+
+:root {
+  /* ── Color: Brand ── */
+  --ciq-color-primary: 221 83% 53%;
+  --ciq-color-primary-hover: 221 83% 48%;
+  --ciq-color-primary-foreground: 0 0% 100%;
+
+  /* ── Color: Surface ── */
+  --ciq-color-background: 210 40% 98%;
+  --ciq-color-surface: 0 0% 100%;
+  --ciq-color-surface-raised: 0 0% 100%;
+  --ciq-color-muted: 210 40% 96%;
+  --ciq-color-border: 214 32% 91%;
+
+  /* ── Color: Text ── */
+  --ciq-color-text: 222 47% 11%;
+  --ciq-color-text-muted: 215 16% 47%;
+
+  /* ── Color: Semantic ── */
+  --ciq-color-success: 160 84% 39%;
+  --ciq-color-warning: 38 92% 50%;
+  --ciq-color-danger: 0 84% 60%;
+  --ciq-color-info: 221 83% 53%;
+
+  /* ── Spacing (4px base) ── */
+  --ciq-space-1: 4px;
+  --ciq-space-2: 8px;
+  --ciq-space-3: 12px;
+  --ciq-space-4: 16px;
+  --ciq-space-5: 20px;
+  --ciq-space-6: 24px;
+  --ciq-space-8: 32px;
+  --ciq-space-10: 40px;
+  --ciq-space-12: 48px;
+  --ciq-space-16: 64px;
+
+  /* ── Typography ── */
+  --ciq-font-sans: 'Inter', system-ui, sans-serif;
+  --ciq-font-mono: 'JetBrains Mono', monospace;
+  --ciq-text-xs: 0.6875rem;
+  --ciq-text-sm: 0.8125rem;
+  --ciq-text-base: 0.875rem;
+  --ciq-text-lg: 1.125rem;
+  --ciq-text-xl: 1.25rem;
+  --ciq-text-2xl: 1.5rem;
+  --ciq-text-3xl: 1.875rem;
+  --ciq-text-4xl: 2.25rem;
+  --ciq-tracking-tight: -0.02em;
+  --ciq-tracking-wide: 0.08em;
+
+  /* ── Radius ── */
+  --ciq-radius-sm: 8px;
+  --ciq-radius-md: 12px;
+  --ciq-radius-lg: 16px;
+  --ciq-radius-full: 9999px;
+
+  /* ── Shadows ── */
+  --ciq-shadow-xs: 0 1px 2px hsl(222 47% 11% / 0.04);
+  --ciq-shadow-sm: 0 1px 3px hsl(222 47% 11% / 0.06), 0 1px 2px hsl(222 47% 11% / 0.04);
+  --ciq-shadow-md: 0 4px 12px hsl(222 47% 11% / 0.08);
+  --ciq-shadow-lg: 0 12px 32px hsl(222 47% 11% / 0.1);
+  --ciq-shadow-xl: 0 24px 48px hsl(222 47% 11% / 0.12);
+  --ciq-shadow-auth: 0 4px 24px hsl(222 47% 11% / 0.06), 0 0 0 1px hsl(214 32% 91% / 0.8);
+
+  /* ── Motion ── */
+  --ciq-duration-fast: 150ms;
+  --ciq-duration-base: 250ms;
+  --ciq-duration-slow: 400ms;
+  --ciq-duration-slower: 600ms;
+  --ciq-ease-default: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --ciq-ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ciq-ease-spring: cubic-bezier(0.34, 1.2, 0.64, 1);
+
+  /* ── Component ── */
+  --ciq-header-height: 56px;
+  --ciq-sidebar-width: 260px;
+  --ciq-panel-padding: var(--ciq-space-5);
+  --ciq-metric-height: 88px;
+}
