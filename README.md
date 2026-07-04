@@ -19,7 +19,7 @@ Transforming campuses into intelligent, connected, and efficient ecosystems thro
 
 ## Overview
 
-CampusIQ is an intelligent campus operating system designed to unify academic, administrative, operational, and student services into a single platform.
+CampusIQ is An intelligent campus operating system designed to unify academic, administrative, operational, and student services into a single platform.
 
 Educational institutions often rely on multiple disconnected systems for attendance, events, communication, resources, transport, service requests, and campus operations.
 
